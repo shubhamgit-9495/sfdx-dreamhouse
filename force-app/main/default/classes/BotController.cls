@@ -24,6 +24,8 @@ public with sharing class BotController {
         handlerMappings = mappings;
     }
     
+    /** This is a dummy */
+
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
